@@ -16,7 +16,7 @@ const makeList = (arr) => {
     if (!arr) {
         return <li>배열이 비었음</li>
     }
-    return arr.map(num => <li>{num}</li>)
+    return arr.map((num, idx) => <li key={idx}>{num}</li>)
 }
 
 
