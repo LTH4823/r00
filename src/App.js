@@ -1,8 +1,7 @@
-
-import HelloName from "./components/HelloName";
 import ShowOddEven, {makeResult} from "./components/ShowOddEven";
-import LottoResult from "./components/lotto/LottoResult";
-import LottoHeader from "./components/lotto/LottoHeader";
+import Lotto from "./components/lotto";
+import Temp1 from "./components/templates/Temp1";
+import LottoPage from "./components/pages/LottoPage";
 
 
 function App() {
@@ -13,8 +12,7 @@ function App() {
 
     return (
         <div>
-            <LottoHeader/>
-            <LottoResult/>
+            <LottoPage/>
         </div>
     );
 }
