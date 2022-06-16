@@ -2,6 +2,7 @@ import ShowOddEven, {makeResult} from "./components/ShowOddEven";
 import Lotto from "./components/lotto";
 import Temp1 from "./components/templates/Temp1";
 import LottoPage from "./components/pages/LottoPage";
+import Counter1 from "./components/counter1/Counter1";
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
 
     return (
         <div>
-            <LottoPage/>
+            <Counter1/>
         </div>
     );
 }
